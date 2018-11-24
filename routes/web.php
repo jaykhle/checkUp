@@ -47,5 +47,5 @@ Route::resource('doctor', 'CRUDController');*/
 Route::get('/admin/create', 'CRUDController@index')->name('admin.create');
 Route::post('/admin/create', 'CRUDController@store')->name('admin.create.submit');
 
-Route::get('admin/live_search', 'LiveSearchController@index')->name('live_search');
-Route::get('admin/live_search/action', 'LiveSearchController@action')->name('live_search.action');
+Route::get('doctor/profile/appointment', 'LiveSearchController@searchAppointment')->name('doctor.appointment');
+Route::get('patient/profile/appointment', 'LiveSearchController@searchAppointment')->name('patient.appointment');

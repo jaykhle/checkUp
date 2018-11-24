@@ -15,9 +15,6 @@
                             <a class="nav-link" href="{{ route('pages.index') }}">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="{{ route('live_search') }}">Search</a>
-                        </li>
-                        <li class="nav-item">
                             <a class="nav-link" href="{{ route('doctor.profile') }}">DoctorPage</a>
                         </li>
                         <li class="nav-item">
